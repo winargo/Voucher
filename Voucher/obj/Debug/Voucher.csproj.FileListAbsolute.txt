@@ -1,0 +1,10 @@
+C:\Users\rwina\source\repos\Voucher\Voucher\bin\Debug\Voucher.exe.config
+C:\Users\rwina\source\repos\Voucher\Voucher\bin\Debug\Voucher.exe
+C:\Users\rwina\source\repos\Voucher\Voucher\bin\Debug\Voucher.pdb
+C:\Users\rwina\source\repos\Voucher\Voucher\obj\Debug\Voucher.MDIParent2.resources
+C:\Users\rwina\source\repos\Voucher\Voucher\obj\Debug\Voucher.Properties.Resources.resources
+C:\Users\rwina\source\repos\Voucher\Voucher\obj\Debug\Voucher.csproj.GenerateResource.Cache
+C:\Users\rwina\source\repos\Voucher\Voucher\obj\Debug\Voucher.csproj.CoreCompileInputs.cache
+C:\Users\rwina\source\repos\Voucher\Voucher\obj\Debug\Voucher.exe
+C:\Users\rwina\source\repos\Voucher\Voucher\obj\Debug\Voucher.pdb
+C:\Users\rwina\source\repos\Voucher\Voucher\obj\Debug\Voucher.csprojResolveAssemblyReference.cache
