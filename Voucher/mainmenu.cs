@@ -10,13 +10,16 @@ using System.Windows.Forms;
 
 namespace Voucher
 {
-    public partial class MDIParent2 : Form
+    public partial class mainmenu : Form
     {
         private int childFormNumber = 0;
 
-        public MDIParent2()
+        public mainmenu()
         {
             InitializeComponent();
+            mainmenu main = this;
+            main.Text = "Voucher";
+            main.CenterToScreen();
         }
 
         private void ShowNewForm(object sender, EventArgs e)
@@ -106,10 +109,24 @@ namespace Voucher
         {
 
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
+        }
 
+        private void MDIParent2_Load(object sender, EventArgs e)
+        {
+            loginform loginform = new loginform();
+            loginform.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -8,3 +8,14 @@ C:\Users\rwina\source\repos\Voucher\Voucher\obj\Debug\Voucher.csproj.CoreCompile
 C:\Users\rwina\source\repos\Voucher\Voucher\obj\Debug\Voucher.exe
 C:\Users\rwina\source\repos\Voucher\Voucher\obj\Debug\Voucher.pdb
 C:\Users\rwina\source\repos\Voucher\Voucher\obj\Debug\Voucher.csprojResolveAssemblyReference.cache
+D:\voucher\Voucher\bin\Debug\Voucher.exe.config
+D:\voucher\Voucher\obj\Debug\Voucher.exe
+D:\voucher\Voucher\obj\Debug\Voucher.pdb
+D:\voucher\Voucher\bin\Debug\Voucher.exe
+D:\voucher\Voucher\bin\Debug\Voucher.pdb
+D:\voucher\Voucher\obj\Debug\Voucher.csprojResolveAssemblyReference.cache
+D:\voucher\Voucher\obj\Debug\Voucher.Properties.Resources.resources
+D:\voucher\Voucher\obj\Debug\Voucher.csproj.GenerateResource.Cache
+D:\voucher\Voucher\obj\Debug\Voucher.Connectionsetup.resources
+D:\voucher\Voucher\obj\Debug\Voucher.mainmenu.resources
+D:\voucher\Voucher\obj\Debug\Voucher.loginform.resources

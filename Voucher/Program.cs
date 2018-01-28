@@ -16,7 +16,7 @@ namespace Voucher
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MDIParent2());
+            Application.Run(new Connectionsetup());
         }
     }
 }

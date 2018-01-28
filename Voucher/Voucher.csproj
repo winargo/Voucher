@@ -45,16 +45,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MDIParent2.cs">
+    <Compile Include="loginform.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MDIParent2.Designer.cs">
-      <DependentUpon>MDIParent2.cs</DependentUpon>
+    <Compile Include="loginform.Designer.cs">
+      <DependentUpon>loginform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connectionsetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connectionsetup.Designer.cs">
+      <DependentUpon>Connectionsetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainmenu.Designer.cs">
+      <DependentUpon>mainmenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="MDIParent2.resx">
-      <DependentUpon>MDIParent2.cs</DependentUpon>
+    <Compile Include="SQLclass.cs" />
+    <EmbeddedResource Include="loginform.resx">
+      <DependentUpon>loginform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connectionsetup.resx">
+      <DependentUpon>Connectionsetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainmenu.resx">
+      <DependentUpon>mainmenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
