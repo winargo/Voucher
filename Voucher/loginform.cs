@@ -54,14 +54,17 @@ namespace Voucher
                    //Console.WriteLine(myReader["Column1"].ToString());
                    // Console.WriteLine(myReader["Column2"].ToString());
                 }
+                
                 if (a > 0)
                 {
                     this.Close();
                 }
                 else {
+                   
                     password.Text = string.Empty;
                     MessageBox.Show("Username or Password Doesn't match", "Error");
                 }
+                myReader.Close();
             }
             catch {
 

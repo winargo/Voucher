@@ -111,6 +111,8 @@ namespace Voucher
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            browsedata a = new browsedata();
+            a.Show();
         }
 
         private void MDIParent2_Load(object sender, EventArgs e)
