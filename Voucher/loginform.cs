@@ -44,7 +44,7 @@ namespace Voucher
                 if (temp.Equals("")) {
                     temp = "";
                 }
-                SqlCommand myCommand = new SqlCommand("select * from xuser where user_id='"+username.Text.ToString()+"' and password=dbo.getpass('"+temp+"')", SQLclass.connection);
+                SqlCommand myCommand = new SqlCommand("select * from xuser where user_id='" + username.Text.ToString() + "' and dbo.getpass(password)='" + temp + "'", SQLclass.connection);
                 myReader = myCommand.ExecuteReader();
                 int a = 0;
                 while (myReader.Read())
@@ -57,6 +57,9 @@ namespace Voucher
                 
                 if (a > 0)
                 {
+                    
+                    mainmenu menu = new mainmenu();
+                    menu.Show();
                     this.Close();
                 }
                 else {

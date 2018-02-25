@@ -8,10 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using System.Security.Permissions;
+using System.IO;
+
 
 namespace Voucher
 {
-    public partial class Connectionsetup : Form
+    [SerializableAttribute]
+    public partial class Connectionsetup : Form 
     {
         public Connectionsetup()
         {
@@ -23,7 +27,17 @@ namespace Voucher
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            
+            try { 
+                string readText = sw.ReadLine();
+                string[] parts = readText.Split(' ');
+                servername.Text = parts[0];
+                dbname.Text = parts[1];
+                sw.Close();
+            }
+            catch (Exception er){
+                MessageBox.Show( er.ToString(), "Information");
+            }
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -35,7 +49,14 @@ namespace Voucher
                 if (SQLclass.connection != null && SQLclass.connection.State == ConnectionState.Open)
                 {
                     MessageBox.Show("Connected","Information");
-                    mainmenu b = new mainmenu();
+                    string createText = servername.Text.ToString() + " " + dbname.Text.ToString();
+                    StreamWriter sw = new StreamWriter(Path.GetDirectoryName(Application.ExecutablePath), true, Encoding.ASCII);
+                    sw.WriteLine(createText);
+                    //      File.WriteAllText(Path.GetDirectoryName(Application.ExecutablePath), createText);
+                    MessageBox.Show(Path.GetDirectoryName(Application.ExecutablePath), "Information");
+                    //    File.SetAttributes(Path.GetDirectoryName(Application.ExecutablePath), FileAttributes.Normal);
+                    sw.Close();
+                    loginform b = new loginform();
                     this.Hide();
                     b.Show();
                 }
@@ -46,7 +67,7 @@ namespace Voucher
             }
             catch (Exception er)
             {
-                MessageBox.Show("Error Connection","Information");
+                MessageBox.Show("Error Connection"+er,"Information");
             }
             
             /*

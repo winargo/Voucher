@@ -111,24 +111,35 @@ namespace Voucher
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            browsedata a = new browsedata();
+            masterkalkulasi a = new masterkalkulasi();
             a.Show();
         }
 
         private void MDIParent2_Load(object sender, EventArgs e)
         {
-            loginform loginform = new loginform();
-            loginform.ShowDialog();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            browsedata a = new browsedata();
+            a.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonkalkulasi_Click(object sender, EventArgs e)
+        {
+            settingkalkulasi a = new settingkalkulasi();
+            a.Show();
         }
     }
 }

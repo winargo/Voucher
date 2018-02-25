@@ -19,7 +19,7 @@ namespace Voucher
         {
             InitializeComponent();
             browsedata main = this;
-            main.Text = "Verify Customer Discount";
+            main.Text = "Data Customer";
             main.CenterToScreen();
         }
 

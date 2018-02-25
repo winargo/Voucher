@@ -51,6 +51,18 @@
     <Compile Include="browsedata.Designer.cs">
       <DependentUpon>browsedata.cs</DependentUpon>
     </Compile>
+    <Compile Include="settingkalkulasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="settingkalkulasi.Designer.cs">
+      <DependentUpon>settingkalkulasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="masterkalkulasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masterkalkulasi.Designer.cs">
+      <DependentUpon>masterkalkulasi.cs</DependentUpon>
+    </Compile>
     <Compile Include="loginform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +86,12 @@
     <Compile Include="SQLclass.cs" />
     <EmbeddedResource Include="browsedata.resx">
       <DependentUpon>browsedata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="settingkalkulasi.resx">
+      <DependentUpon>settingkalkulasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="masterkalkulasi.resx">
+      <DependentUpon>masterkalkulasi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="loginform.resx">
       <DependentUpon>loginform.cs</DependentUpon>

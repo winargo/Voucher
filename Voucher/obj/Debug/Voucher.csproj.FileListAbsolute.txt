@@ -20,3 +20,5 @@ D:\voucher\Voucher\obj\Debug\Voucher.Properties.Resources.resources
 D:\voucher\Voucher\obj\Debug\Voucher.csproj.GenerateResource.Cache
 D:\voucher\Voucher\obj\Debug\Voucher.exe
 D:\voucher\Voucher\obj\Debug\Voucher.pdb
+D:\voucher\Voucher\obj\Debug\Voucher.settingkalkulasi.resources
+D:\voucher\Voucher\obj\Debug\Voucher.masterkalkulasi.resources
